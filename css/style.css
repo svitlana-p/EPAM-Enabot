@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+body .conteiner {
+    padding: 1vw 4vw 0 4vw;
+}
+
+body header nav {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+body header nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+body header nav .logo img {
+    width: 8vw;
+    height: 2vw;
+}
+
+body header nav .nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+body header nav .nav-bar ul li {
+    margin: 0 0.8vw;
+    text-transform: uppercase;
+    font-size: 0.8vw;
+}
+
+body header nav .nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+body header nav .nav-bar ul li a:hover,
+body footer .footer-menu ul li a:hover,
+body footer .copyright ul li a:hover {
+    color: rgba(0, 0, 0, 0.456)
+}
+
+body header nav .nav-button button {
+    font-size: 0.8vw;
+    width: 16vw;
+    height: 3.5vw;
+    background-color: #01B6D4;
+    border: 1px solid #01B6D4;
+    border-radius: 1.8vh;
+    color: white;
+    text-transform: uppercase;
+}
+
+body header nav .nav-button button:hover {
+    cursor: pointer;
+    background-color: #01b4d478;
+}
+
+body main .ebo-block {
+    margin-top: 2vh;
+    background-color: #C4C4C4AD;
+    width: 75vw;
+    height: 87vh;
+}
+
+.ebo-text {
+    padding: 8vh 0 0 16vh;
+
+}
+
+body main .ebo-block h1 {
+    margin: 0;
+    font-size: 18vw;
+    font-weight: 400;
+}
+
+body main .ebo-block h2 {
+    margin: 0;
+    padding: 1vh 0;
+    font-size: 2.4vw;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+body main .ebo-block p {
+    margin: 0;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: white;
+}
+
+.ebo-img {
+    position: absolute;
+    right: 4vw;
+    top: 28vh;
+}
+
+.ebo-img img {
+    display: inline-block;
+    width: 40vw;
+    height: 26vw;
+}
+
+body main .first-section-conteiner {
+    margin-top: 8vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 7vh;
+    grid-row-gap: 10vh;
+}
+
+.section-img img {
+    display: inline-block;
+    width: 100%;
+}
+
+body main .first-section-conteiner .section-text h2 {
+    margin: 0 0 0 6vw;
+    padding-top: 0;
+}
+
+body main .first-section-conteiner .section-text h2,
+body main h2 {
+    font-size: 4vw;
+    font-weight: 400;
+    color: #01B6D4;
+}
+.section-text  {
+    position:inherit;
+}
+body main .first-section-conteiner .section-text p {
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+body main .first-section-conteiner .section-text a {
+    margin-left: 6vw;
+}
+
+body main .first-section-conteiner .section-text a,
+body main .second-section-conteiner .section-text a {
+
+    font-size: 1.2vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #01B6D4;
+}
+
+body main .second-section-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 6vh;
+}
+
+body main h2.second-section-header {
+    text-align: center;
+}
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+body main .second-section-conteiner .section-text h2 {
+    margin: 2vw 8vw 0 0;
+    padding-top: 0;
+    font-size: 1.8vw;
+    font-weight: 400;
+    color: #01B6D4;
+}
+
+body main .second-section-conteiner .section-text p {
+    padding-right: 9vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+
+body footer {
+    margin-top: 8vh;
+    padding-bottom: 8vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    background-color: #C4C4C433;
+}
+
+body footer .logo,
+body footer .footer-menu,
+body footer .copyright {
+    margin-top: 6vh;
+}
+
+body footer .logo {
+    margin-left: 50px;
+    margin-right: 20vh;
+}
+
+body footer .footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body footer .footer-menu ul,
+body footer .copyright ul {
+    list-style: none;
+}
+
+body footer .footer-menu ul li,
+body footer .copyright ul li {
+    padding: 1vh;
+}
+
+body footer .footer-menu ul li a,
+body footer .copyright ul li a {
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: black;
+}
+
+body footer .copyright ul li a {
+    font-weight: bold;
+}
+
+body footer .copyright ul li {
+    margin-left: 8vh;
+}
